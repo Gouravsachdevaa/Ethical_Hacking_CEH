@@ -1,0 +1,23 @@
+CEH Topics 70% will be practical 30% will be theoretical
+1. Introduction to hacking
+2. Basic Networking(Bonus topic from my side)
+3. Lab setup
+4. Basic Linux commands and information(Bonus topic from my side)
+5. Footprinting/Infomation Gathering
+6. Scanning
+7. Enumeration
+8. Vulnerability Assesment
+9. Hacking Web Server
+10. System Hacking
+11. Malware Threats
+12. Social Engineering
+13. Session Hijacking, Sniffing and Spoofing
+14. DoS and DDoS
+15. Mobile Hacking
+16. Sql Injection
+17. Web Application Hacking
+18. Hacking Wireless Hacking
+19. IDS, IPS and Firewalls
+20. IoT
+21. Cryptography and Stegnography
+22. Cloud Computing
